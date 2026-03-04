@@ -1,0 +1,76 @@
+h1 {
+    margin: 1.5rem;
+    color: #861288;
+    font-family: "Indie Flower", cursive;
+    font-size: 2.5rem;
+    word-spacing: 1rem;
+    letter-spacing: .75rem;
+    text-shadow: 1px 1px 3px #861288;
+}
+h2{
+    margin: 1.5rem;
+    color: #861288;
+    font-family: "Indie Flower", cursive;
+        text-shadow: 1px 1px 0px #861288;
+
+}
+figcaption {
+    float: right;
+    margin: 4rem;
+    max-width: 100%;
+}
+img {
+    float: right;
+    margin: 4rem;
+    max-width: 100%;
+}
+body {
+    background-color: #FFFFF1;
+}
+p, ol {
+    margin: 1.5rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.7rem;
+}
+ul {
+    padding: 1.25rem;
+    margin: 1.5rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.7rem;
+    color: whitesmoke;
+}
+
+.indie-flower-regular {
+  font-family: "Indie Flower", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+h3 {
+    color: #861288;
+    font-family: "Indie Flower", cursive;
+    margin: 1.5rem;
+}
+hr.new {
+    border:5px solid #861288;
+    border-radius: 2.5px;
+}
+a:link {
+    color: purple;
+    text-decoration: underline;
+}
+a:visited {
+    color: #036D0A;
+}
+a:hover {
+color: #1F1FA6;
+}
+a:active {
+    color: #B37100;
+}
+.purple-bg {
+    background: purple;
+    border-style: solid;
+    border-color: #FFFFF1;
+    border-right-color: #FFFFF1;
+    border-right-width: 60rem;
+}
