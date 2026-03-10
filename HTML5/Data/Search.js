@@ -1,0 +1,1 @@
+define({r:0.5,st:'Stem',n:1,t:[0],m:[],u:['../Content/A-Introduction-Topics/Legal-aspects.htm'],s:['03'],p:[['03',13],['on',1]]});
