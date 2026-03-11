@@ -39,7 +39,7 @@ a:hover {
     color: #1F1FA6;
 }
 a:active {
-    color: #B37100;
+    color: #875817;
 }
 
 /* Link styling - header */
@@ -61,7 +61,7 @@ header a:active {
 }
 
 h2.logo {
-    background-color: goldenrod;
+    background-color: #9F1309;
     text-align: center;
     width: 6rem;
     height: 6rem;
