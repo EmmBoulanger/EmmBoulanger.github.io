@@ -79,12 +79,7 @@ footer {
     padding-top: 3rem;
     padding-bottom: 3rem;
 }
-.bio-content figure {
-   /* border: 1px solid cadetblue;
-    display:block;
-    margin:auto;
-    width:50%;  */ 
-}
+
 .bio-content p{
     grid-column: 2/3;
     margin: 4rem;
