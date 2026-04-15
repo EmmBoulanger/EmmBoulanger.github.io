@@ -72,6 +72,27 @@ footer {
     color:black;
 }
 
+
+/*homepage code*/
+.home-content img {
+    float:left;
+    padding:3rem;
+    margin-left: 7rem;
+}
+.home-content h2 {
+    padding-top:3rem;
+    font-size:40px;
+}
+.home-content p {
+    max-width:75rem;
+    margin-left: 7rem;
+    font-size:30px;
+}
+
+
+
+
+/*biography page code*/
 .bio-content {
     display:grid;
     grid-template-columns: 1fr 1fr;
