@@ -1,0 +1,109 @@
+><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.container {
+  position: relative;
+}
+
+.center {
+  position: absolute;
+  top: 10%;
+  width: 100%;
+  text-align: left;
+  font-size: 15px;
+}
+
+img { 
+  width: 100%;
+  height: auto;
+  opacity: 0.5;
+}
+
+div.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+div.flex-container > div {
+  margin: 10px;
+}
+.flex-container img {
+    opacity:1;
+    width:35%;
+    float: left;
+    margin:1rem;
+}
+.img1 img{
+    opacity:1;
+    width:60%;
+    margin:-2px;
+    margin-left:2rem;
+}
+.img2 img {
+    opacity:1;
+    width:80%;
+    margin:-2px;
+    margin-right:2rem;
+}
+
+</style>
+</head>
+<body>
+
+<!--<h2>Position Text on Image</h2>
+
+<p>Position a text on an image in the center:</p> -->
+
+<div class="container">
+<img src="../images/coffee-books.png" alt="coffee cup with books" width="1000" height="300">
+<div class="center">
+<!--css exploration 2: 3 column layout-->
+<div class="flex-container">
+  <div class="img1">
+    <h2>Side</h2>
+    <p>Emma Boulanger is a junior at the University 
+        of Massachusetts-Amherst studying English 
+        creative writing, and completing the 
+        Professional Writing and Technical 
+        Communications certificate. She is interested 
+        in fiction writing, web development, and 
+        book design.</p>
+        <img src="../images/group-band.png">
+  </div>
+
+  <div>
+    <h2>Main Content</h2>
+    <img src="../images/bio-image.jpg"></a>
+    <p>After entering UMass Amherst as a 
+        astronomy major, Emma quickly found 
+        her home amongst the creative witing
+        program instead, after taking theintroduction course. Continuing her studies, Emma found herself 
+        drawn to the technical writing  field as well, pursuing the Professional Writing and Technical Communications 
+        certificate. Her intention is to 
+        turn her focus to persuing an 
+        internship in the techincal 
+        writing field and apply her 
+        knowledge of both the creative 
+        and technical crafts.</p>
+        
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna.</p>
+  </div>
+
+  <div class="img2">
+    <h2>Side</h2>
+    <p>When Emma isn't working or studying, she is a proud member 
+        of the Marching Band (during the fall season), reading,
+             and learning new activities with friends.</p>
+    <img src="../images/emma-selfie.jpg">
+  </div>  
+</div>
+
+</div>
+</div>
+
+</body>
+</html>
