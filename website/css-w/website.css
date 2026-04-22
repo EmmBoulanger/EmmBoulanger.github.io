@@ -1,45 +1,48 @@
 header {
-    background-color:#450B51;
+background: linear-gradient(to bottom, #5bf0f0, #db930f);    
     color: white;
     margin:0;
     max-height:100vh;
     text-align:center;
-    padding: 0.5rem;
+    padding: 0.25rem;
     font-size:large;
+    letter-spacing: 2rem;
 }
 nav {
-    background-color: #D0A3DB;
+    background-color: #D4962E;
+    border-bottom:1px solid #DEB373;
 }
 nav li {
     list-style-type: none;
-    background-color:#D0A3DB;
+    background-color:#D4962E;
 ;
     margin:0.25rem;
     font-size: 18px;
-    padding:1rem;
+    padding:0.5rem;
 }
 nav a {
     text-decoration: none;
-    color: #450B51;
+    color: black;
     padding:1rem;
 }
 
 nav a:hover {
     color: black;
+    background-color:#DEB373;
 }
 
 nav ul {
     display: flex;
     justify-content: center;
-    background-color:#D0A3DB;
-    padding: 25px;
+    background-color:#D4962E;
+    padding: 20px;
     margin:0;
     flex-wrap:wrap;
 }
 ul li ul {
     display:none;
     position:absolute;
-    background-color:#D0A3DB;
+    background-color:#D4962E;
 }
 ul li:hover>ul,
 ul li:focus-within>ul,
@@ -48,7 +51,7 @@ ul li ul:focus {
     visibility:visible;
     opacity:1;
     display:block;
-    border:2px solid #D0A3DB;
+    border:2px solid #DEB373;
 }
 html, body {
     margin: 0;
@@ -57,7 +60,6 @@ html, body {
 body {
     max-width: 100rem;
     margin:0;
-    /*background-color:beige;*/
 
     display:flex;
     flex-direction: column;
@@ -65,19 +67,28 @@ body {
 main {
     flex: 1;
 }
+/*.home-main {
+    background-color:thistle;
+}*/
 footer {
     padding:1rem;
-    background-color: #D0A3DB;
+background: linear-gradient(to bottom, #db930f, #5bf0f0);
     text-align:center;
     color:black;
 }
 
 
 /*homepage code*/
+.home-content {
+    max-height:100vh;
+    margin-bottom:auto;
+}
 .home-content img {
     float:left;
     padding:3rem;
     margin-left: 7rem;
+    max-width:100%;
+    width:25%;
 }
 .home-content h2 {
     padding-top:3rem;
@@ -86,7 +97,11 @@ footer {
 .home-content p {
     max-width:75rem;
     margin-left: 7rem;
+    margin-right:15rem;
     font-size:30px;
+    /*background-color:#E0E0E0;*/
+    border-radius: 15px;
+    
 }
 
 
@@ -100,20 +115,33 @@ footer {
     padding-top: 3rem;
     padding-bottom: 3rem;
 }
-
-.bio-content p{
+.bio-content h2, .bio-content2 h2, .bio-content3 h2 {
+    background-color:#D4962E;
+    max-width:fit-content;
+    border-radius: 15px;
+}
+.bio-content p {
     grid-column: 2/3;
-    margin: 4rem;
     margin-right: 6rem;
     line-height: 1.75rem;
+    font-size:20px;
+    background-color:#F7F7F7;
+    border-radius: 15px;
 }
 .bio-content img {
     grid-row:2/3;
     grid-column:2/3;
     display:block;
     margin:auto;
-    width:50%;  
+    width:60%;  
     border:0.5px solid black;
+    max-width:100%;
+}
+.bio-content section {
+    grid-column:2/3;
+}
+section h2 {
+    font-size: 35px;
 }
 .bio-content2 {
     display:grid;
@@ -122,20 +150,63 @@ footer {
     padding-top: 3rem;
     padding-bottom: 3rem;
 }
-.bio-content2 p{
+.bio-content2 section{
     grid-column:1/2;
     grid-row:1/2;
-    margin: 4rem;
     margin-left: 6rem;
-    text-align: justify;
+    text-align: right;
     line-height: 1.75rem;
+    font-size:20px;
+}
+.bio-content2 p {
+    background-color:#F7F7F7;
+    border-radius: 15px;
 }
 .bio-content2 img {
     grid-row:1/2;
     grid-column:2/3;
     display:block;
     margin:auto;
-    width:50%; 
+    width:70%; 
     border:0.5px solid black; 
+    max-width:100%;
+}
+.bio-content3 {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.bio-content3 img {
+    grid-column:1/2;
+}
+.bio-content3 section {
+    grid-column:2/3;
+    margin-right: 6rem;
+    line-height: 1.75rem;
+    font-size:20px;
+}
+.bio-content3 p {
+    background-color:#F7F7F7;
+    border-radius: 15px;
+}
+
+/* resume page code */
+.resume-name h2 {
+    font-size:35px;
+    padding-left:15rem;
+
+}
+.wrapper {
+    margin: 0 auto;
+    max-width: 40rem;
+    padding-bottom: 1rem;
+}
+.wrapper a {
+    text-align:right;
+    color:#450B51;
+}
+.resume-main h2{
+    color:#450B51;
 }
 
